@@ -8,11 +8,12 @@
 <meta property="og:image" content="socialthumb.png"/>
 <meta property="twitter:image" content="socialthumb.png"/>
   <style type="text/css">
-    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');    img { max-width: 100%; height: auto; }
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
     p {
 font-size: 8px;
 font-family: 'Roboto Mono', monospace;
-  color: white;
+  color:  #01ff00;
     }
 
    @media only screen and (min-width: 981px){
@@ -29,12 +30,12 @@ font-family: 'Roboto Mono', monospace;
 a:link {
 font-size: 11px;
 font-family: 'Roboto Mono', monospace;
-  color: white;
+  color: #01ff00;
 }
 
 /* visited link */
 a:visited {
-  color: white;
+  color: #01ff00;
 }
 
 /* mouse over link */
@@ -44,7 +45,7 @@ font-weight: bolder;
 
 /* selected link */
 a:active {
-  color: white;
+  color: #01ff00;
 }
 
 .green {
@@ -55,19 +56,31 @@ a:active {
 font-size: 8px;
 }
 
-    
+.padding{
+  padding: 8px;
+}
 
+body {
+  background-image: url('fire1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+    
   </style>
     <script src="UnityLoader.js"></script>
     <script>
       UnityLoader.compatibilityCheck=function(e,t,r){t();};
+      UnityLoader.instantiate("unityContainer", "nnc.json");
+      UnityLoader.instantiate("unityContainer2", "nnc[m].json");
     </script>
 </head>
-<body bgcolor="black">
+<body>
+  <center><div class="padding"><img src="nnlogo-gb.png" width="200"></div><br>
+    <a href="https://www.facebook.com/nothingnowheremusic/"><img src="g-fb.png" width="25"></a><a href="https://www.instagram.com/nothingnowhere/?" width="25"><img src="g-ig.png" width="25"></a><a href="https://twitter.com/nothingnowhere" width="25"><img src="g-tw.png" width="25"></a><a href="https://open.spotify.com/artist/7FngGIEGgN3Iwauw1MvO4P"><img src="g-sp.png" width="25"></a> <a href="https://soundcloud.com/nothingnowheremusic" ><img src="g-sc.png" width="25"></a></center>
 <div id="hide">
-    <center><iframe src="https://i.simmer.io/@gtthk/~024d6174-38e0-dc92-2f2e-089495a3d81b" style="width:1450px; height:870px; border-style: none;"></iframe></div></center>
-      <center><div id="test"><iframe src="https://i.simmer.io/@gtthk/~e39e7402-f9e1-f6ca-0f6a-6128e1504e2e" border="0" style="width:400px; height:610px; border-style: none;"></iframe><br>
-        </div><center><p>★<strong>Last Updated:</strong> Nov 8 6:47pm ★</p><p>
-        <a href="https://www.nothingnowheremerch.com">Web Merch Store</a>&nbsp;<br><a href="https://instagram.com/gtthk"><div class="small
+    <center><div id="unityContainer" style="width: 1250px; height: 750px; margin: auto"></div></div></center>
+      <center><div id="test"><div id="unityContainer2" style="width: 425px; height: 610px; margin: auto"></div><br>
+        </div><center><p>★<strong>Last Updated:</strong> Nov 12:30pm ★</p><p>
+        <a href="http://3h0w.rf.gd">Web Store</a>&nbsp;<br><a href="https://instagram.com/gtthk"><div class="small
         ">dev</a></p></center></div>
 </body></html>
